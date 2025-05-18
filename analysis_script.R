@@ -13,7 +13,7 @@ library(scales)  # For better number formatting
 # --------------------------------
 # Load and Clean Data
 # --------------------------------
-df <- read_csv("C:/Users/Maya/OneDrive/Documents/Uni/Certificates/Data Analytic in R/Project/Stack overflow analysis/survey_results_public.csv")
+df <- read_csv("C:/survey_results_public.csv")
 df <- df %>% clean_names()
 df_clean <- df %>%
   filter(!is.na(country), !is.na(employment), !is.na(converted_comp_yearly))
