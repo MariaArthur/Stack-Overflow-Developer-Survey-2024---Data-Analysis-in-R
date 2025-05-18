@@ -19,10 +19,6 @@ df_clean <- df %>%
   filter(!is.na(country), !is.na(employment), !is.na(converted_comp_yearly))
 df_clean$converted_comp_yearly <- as.numeric(df_clean$converted_comp_yearly)
 
-# Add survey_year column (set to 2024 because it's 2024 survey data)
-df_clean <- df_clean %>%
-  mutate(survey_year = 2024)
-
 # --------------------------------
 # Summary Statistics and Basic Demographics
 # --------------------------------
