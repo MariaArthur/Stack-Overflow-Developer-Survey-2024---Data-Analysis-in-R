@@ -15,7 +15,6 @@ The data used in this project is from the **[Stack Overflow Annual Developer Sur
 
 ### 📊 **Data Cleaning and Preparation**
 - Removed rows with missing country, employment, or compensation data.
-- Added a **`survey_year`** column to differentiate responses for the 2024 survey.
 
 ### 📝 **Summary Statistics and Demographics**
 - Total number of survey responses.
