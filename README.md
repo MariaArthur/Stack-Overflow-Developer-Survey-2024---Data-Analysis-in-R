@@ -69,7 +69,6 @@ The data used in this project is from the **[Stack Overflow Annual Developer Sur
 
 ## 📄 **Files in the Repository**
 - **`analysis_script.R`** - R script containing the full data analysis workflow.
-- **`survey_results_public.csv`** - The dataset used for analysis (place this in the root directory).
 - **`plots/`** - Folder for saving generated plots.
 
 ---
